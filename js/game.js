@@ -24,7 +24,7 @@ var gap = 90;
 var score = 0;
 
 //When Button Tap
-document.addEventListener("keydown" || "click", moveUp);
+document.addEventListener("keydown" || "click" || "touchstart" || 'tap', moveUp);
 
 function moveUp() {
     yPos -= 25;
