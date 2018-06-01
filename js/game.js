@@ -54,7 +54,7 @@ function draw() {
 
         pipe[i].x--;
 
-        if (pipe[i].x == 170) {
+        if (pipe[i].x == 210) {
             pipe.push({
                 x: cvs.width,
                 y: Math.floor(Math.random() * pipeUp.height) - pipeUp.height
